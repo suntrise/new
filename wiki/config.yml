@@ -1,1 +1,4 @@
-
+collections:
+  wiki:
+    output: true
+    permalink: /:collection/:path/
