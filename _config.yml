@@ -72,7 +72,7 @@ search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Suntrise"
   avatar           : "/assets/images/Avatar.jpg"
-  bio              : "(attr. STR) 一个普通的学生。希望通过不断学习提升自我。"
+  bio              : "(attr. STR)\n一个普通的学生，希望通过不断学习提升自我。"
   location         : "未知"
   email            : str5180@outlook.com
   links:
