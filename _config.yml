@@ -21,12 +21,12 @@ title                    : "Suntrise 的小站"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Suntrise"
-description              : "一个普通的学生。希望通过不断学习提升自我。"
+description              : "Suntrise 的个人站点"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/40x40.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -68,9 +68,9 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
@@ -90,7 +90,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : StringNeko
 facebook:
   username               :
   app_id                 :
@@ -113,27 +113,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Suntrise"
+  avatar           : "/assets/images/Avatar.jpg"
+  bio              : "(attr. STR) 一个普通的学生。希望通过不断学习提升自我。"
+  location         : "未知"
+  email            : str5180@outlook.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      # url: "str5180@outlook.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/suntrise"
+    - label: "Bilibili"
+      icon: "fas fa-play-circle"
+      url: "https://space.bilibili.com/451475014"
+    - label: "知乎"
+      icon: "far fa-comment-alt"
+      url: "https://www.zhihu.com/people/suntrise"
+    - label: "少数派"
+      icon: "fas fa-globe"
+      url: "https://sspai.com/u/suntrise/"
+    - label: "X(Twitter)"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/StringNeko"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -149,7 +155,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/suntrise
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
