@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Suntrise"
   avatar           : "/assets/images/Avatar.jpg"
-  bio              : "(attr. STR)\n一个普通的学生，希望通过不断学习提升自我。"
+  bio              : "一个普通的学生，希望通过不断学习提升自我。"
   location         : "未知"
   email            : str5180@outlook.com
   links:
