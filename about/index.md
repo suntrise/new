@@ -28,7 +28,12 @@ Suntrise(简称 STR)的小站啦
 
 <script>
   function show(){
+    if(himitsu.style.display=="none"){
     himitsu.style.display="block";
+    }
+    else if(himitsu.style.display=="block"){
+    himitsu.style.display="none";
+    }
   }
 </script>
 
