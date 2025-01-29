@@ -21,7 +21,7 @@ Suntrise(简称 STR)的小站啦
 <div id="himitsu" style="display:none;">
 还有……
 
-{% include gallery % class="full"}
+{% include gallery id="gallery" class="full"%}
 
 <img src="https://github.com/user-attachments/assets/f17449eb-2f44-464d-97c7-4ab1bbdfa5a5">
 
